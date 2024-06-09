@@ -3,7 +3,7 @@ code = files('module.c')
 common_dep = dependency('fscl-xcommon-c')
 curl_dep = dependency('libcurl')
 
-lib = library('fscl-c',
+lib = library('fscl-xnetwork-c',
     code,
     dependencies : [common_dep, curl_dep],
     install: true,
