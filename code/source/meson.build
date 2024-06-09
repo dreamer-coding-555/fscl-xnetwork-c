@@ -1,7 +1,7 @@
 code = files('module.c')
 
 common_dep = dependency('fscl-xcommon-c')
-curl_dep = dependency('libcurl')
+curl_dep = dependency('libcurl', default_options: ['warning_level=0']) # issue from CURL test file for strdup
 
 lib = library('fscl-xnetwork-c',
     code,
