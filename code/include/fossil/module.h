@@ -10,8 +10,10 @@ Description:
     feel free to contact Michael at michaelbrockus@gmail.com.
 ==============================================================================
 */
-#ifndef FSCL_MOD_H
-#define FSCL_MOD_H
+#ifndef FSCL_XNETWORK_H
+#define FSCL_XNETWORK_H
+
+#include <curl/curl.h>
 
 #ifdef __cplusplus
 extern "C"
