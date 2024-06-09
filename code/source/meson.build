@@ -1,7 +1,7 @@
 code = files('module.c')
 
 common_dep = dependency('fscl-xcommon-c')
-curl_dep = dependency('curl')
+curl_dep = dependency('libcurl')
 
 lib = library('fscl-c',
     code,
